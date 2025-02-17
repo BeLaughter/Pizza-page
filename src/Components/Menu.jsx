@@ -92,7 +92,7 @@ function Menu() {
               <div className="icon">
                 <FaCoffee className="iconsmenu" />
               </div>
-              <p>DRINKSs</p>
+              <p>DRINKS</p>
             </div>
           </div>
         </div>
