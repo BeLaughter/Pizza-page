@@ -24,9 +24,9 @@ function Reserve() {
             <div>
               <input type="submit" value="Contact Us" className="input-sub3" />
             </div>
-            <div className="flex">
-              <FaQuoteLeft className="iconsz" />
-              <p>
+            <div className="flex resep">
+              <FaQuoteLeft className="iconsz bgicn" />
+              <p className="resp">
                 Please reserve your table at <br></br>least 1 day in advance.
               </p>
             </div>

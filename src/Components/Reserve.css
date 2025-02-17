@@ -14,6 +14,17 @@
   .comment {
     height: 40vh !important;
   }
+  .resp {
+    font-weight: bold;
+    font-size: 25px;
+    color: #ccc !important;
+  }
+  .bgicn {
+    margin-top: 30px;
+    width: 50px !important;
+    height: 50px !important;
+    color: #ccc !important;
+  }
 }
 
 /* style contents for larger screens only */
@@ -31,6 +42,19 @@
   }
   .reserve {
     margin: 100px;
+  }
+  .resp {
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .resep {
+    margin-right: 200px;
+    color: #ccc !important;
+  }
+  .bgicn {
+    margin-top: 30px;
+    width: 50px !important;
+    height: 50px !important;
   }
 }
 
