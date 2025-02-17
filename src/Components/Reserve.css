@@ -42,6 +42,7 @@
   }
   .reserve {
     margin: 100px;
+    margin-top: 0px !important;
   }
   .resp {
     font-weight: bold;

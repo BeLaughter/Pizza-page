@@ -5,7 +5,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 function Reserve() {
   return (
     <div>
-      <h1 className="text-center">Book your Table</h1>
+      <h1 className="text-center title">Book your Table</h1>
       <div className="reserve">
         <div className="re-card">
           <div className="flex-container">
