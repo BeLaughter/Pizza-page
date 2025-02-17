@@ -1,0 +1,88 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .flex-container-card {
+    padding: 30px;
+  }
+  .input-sub3 {
+    width: 200px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgb(209, 245, 5);
+  }
+  .input-sub3:hover {
+    background-color: rgb(33, 253, 13);
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .flex-container-card {
+    display: flex;
+    padding: 50px;
+  }
+  .flex-item-card1 {
+    margin: 20px;
+    width: 60%;
+  }
+  .flex-item-card2 {
+    width: 40%;
+    margin: 20px;
+    text-align: left;
+  }
+  .flex-item-card2 h1 {
+    font-size: 55px;
+    font-family: "poppings", sans-serif;
+    font-weight: bold;
+  }
+  .flex-item-card2 p {
+    font-size: 25px;
+    font-family: "poppings", sans-serif;
+  }
+  .card {
+    height: 70vh;
+  }
+  .card2 {
+    height: 75vh;
+  }
+  .input-sub3 {
+    width: 200px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgb(209, 245, 5);
+  }
+  .input-sub3:hover {
+    background-color: rgb(33, 253, 13);
+  }
+}
+
+/* stylings that doesnt affect screens only */
+.card {
+  background-image: url("https://livedemo00.template-help.com/wt_51689/images/bg-3.jpg");
+  background-size: cover;
+  margin-bottom: 50px;
+  color: white;
+}
+.card2 {
+  background-image: url("https://livedemo00.template-help.com/wt_51689/images/bg-4.jpg");
+  background-size: cover;
+  margin-bottom: 50px;
+  color: white;
+}
+.sm-line {
+  width: 25px;
+  height: 5px;
+  background-color: yellow;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
+}
+.flex-p {
+  display: flex;
+}
+.flex-container-card {
+  z-index: 300;
+}

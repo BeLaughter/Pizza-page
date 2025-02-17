@@ -1,0 +1,44 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .reserve {
+    margin: 20px;
+  }
+  input {
+    width: 77vw;
+    height: 8vh;
+    padding: 3px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  .comment {
+    height: 40vh !important;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  input {
+    width: 30vw;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  .comment {
+    width: 80vw;
+    height: 40vh !important;
+  }
+  .reserve {
+    margin: 100px;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+.reserve {
+  background-color: white !important;
+  color: #111111;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
+}

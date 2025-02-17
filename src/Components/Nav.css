@@ -1,0 +1,61 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .navbar-brand {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "poppings", sans-serif;
+    padding: 0px 10px;
+    font-size: 2rem;
+  }
+  .nav-link {
+    color: rgb(7, 7, 7) !important;
+    font-size: 0.9rem;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .flex-container-nav1 {
+    display: flex;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    justify-content: right;
+  }
+  .nav-item-nav1 {
+    margin: 0 20px 0 70px;
+  }
+  .navbar-brand {
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "poppings", sans-serif;
+    padding: 0px 10px;
+    font-size: 3rem;
+  }
+  .nav-link {
+    color: rgb(12, 12, 12) !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .nav-link:hover {
+    border-bottom-width: 5px;
+    border-bottom-color: red;
+    border-bottom-style: solid;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+.iconsz {
+  width: 30px !important;
+  height: 30px !important;
+}
+.iconsz:hover {
+  color: red;
+}
+.nav-img {
+  margin-left: 50px;
+}
