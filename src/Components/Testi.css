@@ -1,0 +1,22 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .testi {
+    margin: 20px;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .testi {
+    margin: 150px;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+.testi-card {
+  width: 270px;
+  height: 100px;
+  background-color: aqua;
+}

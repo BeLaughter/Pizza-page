@@ -1,0 +1,51 @@
+/* style contents for mobile only */
+
+@media (max-width: 769px) {
+  .serve {
+    margin: 20px;
+  }
+  .scard {
+    margin-bottom: 40px;
+    width: 100%;
+    height: 55vh;
+    padding: 10px;
+  }
+  .scard h4 {
+    margin-top: 60%;
+    text-align: center;
+  }
+  .scard p {
+    margin-top: 20px;
+    color: gray;
+    text-align: center;
+  }
+}
+
+/* style contents for larger screens only */
+
+@media (min-width: 769px) {
+  .serve {
+    margin: 150px;
+  }
+  .scard {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 18vw;
+    height: 54vh;
+  }
+  .scard h4 {
+    margin-top: 90px;
+    text-align: center;
+  }
+  .scard p {
+    margin-top: 10px;
+    color: gray;
+    text-align: center;
+    font-weight: 500;
+  }
+}
+
+/* stylings that doesnt affect screens only */
+.scard:hover {
+  box-shadow: 0 4px 6px rgba(150, 147, 147, 0.5);
+}
