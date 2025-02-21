@@ -7,7 +7,7 @@ function Pcard(props) {
       <div className="pcard-img">
         <img src={props.img} alt="pizza" className="pcard-imgs" />
       </div>
-      <div className="boxbt">
+      <div className="boxbt hiddenonmobile">
         <div className=" justify-content-center pcard-btn ">
           <div className="">
             <input type="submit" value="ADD TO CART" className="card-inputp" />
@@ -26,6 +26,14 @@ function Pcard(props) {
       </div>
       <h3 className="text-center">{props.h3}</h3>
       <p className="text-center">{props.p}</p>
+      <div className=" justify-content-center pcard-btn hiddenonlap">
+        <div className="">
+          <input type="submit" value="ADD TO CART" className="card-inputp" />
+        </div>
+        <div className="">
+          <input type="submit" value="VIEW PRODUCT" className="card-inputp" />
+        </div>
+      </div>
     </div>
   );
 }

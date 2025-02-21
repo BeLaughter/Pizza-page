@@ -1,6 +1,7 @@
 // import { useState } from "react";
 import "./App.css";
 import Nav from "./Components/Nav";
+import Pizzacarousel from "./Components/Pizzacarousel";
 import Menu from "./Components/Menu";
 import Card from "./Components/Card";
 import Card2 from "./Components/Card2";
@@ -18,6 +19,7 @@ function App() {
         <a href="#nav">^</a>
       </div>
       <Nav />
+      <Pizzacarousel />
       <Menu />
       <Card />
       <Pizzas />
