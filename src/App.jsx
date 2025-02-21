@@ -9,6 +9,7 @@ import Footer from "./Components/Footer";
 import Pizzas from "./Components/Pizzas";
 import Testi from "./Components/Testi";
 import Service from "./Components/Service";
+import Review from "./Components/Review";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Testi />
       <Reserve />
       <Service />
+      <Review />
       <Footer />
     </div>
   );
