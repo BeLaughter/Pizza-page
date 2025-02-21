@@ -13,7 +13,7 @@ function Pizzacarousel() {
             className="d-block w-100"
             alt="Image 1"
           ></img>
-          <div className="boxb"></div>
+          <div className="boxy"></div>
           <div className="carousel-caption capcaro">
             <h5 className="caroh5">
               Quality <br></br> ingredient
@@ -33,7 +33,7 @@ function Pizzacarousel() {
             className="d-block w-100"
             alt="Image 2"
           ></img>
-          <div className="boxb"></div>
+          <div className="boxy"></div>
           <div className="carousel-caption capcaro">
             <h5 className="caroh5">
               Perfect <br></br> pizza
