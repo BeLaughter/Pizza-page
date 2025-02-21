@@ -29,6 +29,10 @@
     margin-top: 15vh;
     background-color: rgba(252, 250, 250, 0.2);
   }
+  .capcaro {
+    text-align: center !important;
+    margin-bottom: 10px;
+  }
 }
 
 /* style contents for larger screens only */
@@ -67,10 +71,10 @@
     margin-top: 40vh;
     background-color: rgba(252, 250, 250, 0.2);
   }
+  .capcaro {
+    text-align: left !important;
+    margin-bottom: 10px;
+  }
 }
 
 /* stylings that doesnt affect screens only */
-.capcaro {
-  text-align: left !important;
-  margin-bottom: 10px;
-}
