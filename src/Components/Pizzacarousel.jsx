@@ -30,11 +30,21 @@ function Pizzacarousel() {
             >
               Quality <br></br> ingredient
             </h5>
-            <p className="carop">
+            <p
+              className="carop"
+              data-aos="zoom-out-left"
+              data-aos-duration="1500"
+            >
               We use only the best ingredients to make<br></br> one-of-a-kind
               pizzas for our customers.
             </p>
-            <a className=" btn btn-warning caroa " href="#">
+            <a
+              className=" btn btn-warning caroa "
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+              href="#"
+            >
               View Our Menu
             </a>
           </div>
