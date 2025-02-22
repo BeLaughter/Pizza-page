@@ -1,6 +1,13 @@
 import "./Pizzacarousel.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 function Pizzacarousel() {
+  // Initialize AOS
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div
       id="simpleCarousel"
@@ -16,10 +23,14 @@ function Pizzacarousel() {
           ></img>
           <div className="boxy"></div>
           <div className="carousel-caption capcaro">
-            <h5 className="caroh5">
+            <h5
+              className="caroh5"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
               Quality <br></br> ingredient
             </h5>
-            <p className="carop" data-aos="fade-right" data-aos-duration="1000">
+            <p className="carop">
               We use only the best ingredients to make<br></br> one-of-a-kind
               pizzas for our customers.
             </p>
@@ -39,7 +50,7 @@ function Pizzacarousel() {
             <h5 className="caroh5">
               Perfect <br></br> pizza
             </h5>
-            <p className="carop" data-aos="fade-right" data-aos-duration="1000">
+            <p className="carop">
               Experience the taste of a perfect pizza at <br></br>PizzaHouse,
               one of the best restaurants!
             </p>
