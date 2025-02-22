@@ -16,7 +16,7 @@
     height: 50px;
     margin: 0 !important;
     font-size: 20px;
-    background-color: red;
+    background-color: goldenrod;
   }
   .input-sub2:hover {
     background-color: rgb(33, 253, 13);
@@ -60,7 +60,7 @@
     width: 130px;
     height: 70px;
     margin: 0 !important;
-    background-color: red;
+    background-color: goldenrod;
     font-weight: bold;
     font-size: 20px;
   }

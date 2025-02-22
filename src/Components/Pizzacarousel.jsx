@@ -64,7 +64,7 @@ function Pizzacarousel() {
               Experience the taste of a perfect pizza at <br></br>PizzaHouse,
               one of the best restaurants!
             </p>
-            <a className=" btn btn-warning caroa" href="#">
+            <a className="btn caroa" href="#">
               View Our Menu
             </a>
           </div>
