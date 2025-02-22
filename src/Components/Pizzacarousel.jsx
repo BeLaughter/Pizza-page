@@ -42,7 +42,7 @@ function Pizzacarousel() {
               className=" btn btn-warning caroa "
               data-aos="fade-down"
               data-aos-easing="linear"
-              data-aos-duration="1000"
+              data-aos-duration="1500"
               href="#"
             >
               View Our Menu
