@@ -45,7 +45,7 @@
   }
   .carop {
     font-weight: bold !important;
-    font-size: 1.2rem !important;
+    font-size: 1.5rem !important;
     margin: 40px;
     margin-left: 0px !important;
     font-family: sans-serif !important;
@@ -73,9 +73,26 @@
     margin-top: 40vh;
     background-color: rgba(252, 250, 250, 0.2);
   }
+  .dis:hover {
+    width: auto;
+    background-color: rgba(222, 247, 4);
+  }
   .capcaro {
     text-align: left !important;
     margin-bottom: 10px;
+  }
+  .img-botton {
+    display: none;
+    height: 70px;
+    width: 100px;
+  }
+  .dis:hover .img-botton {
+    display: flex;
+  }
+  .dis:hover .iconsmen {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
@@ -88,4 +105,9 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6); /* Black with 60% opacity */
   z-index: 0;
+}
+.iconsmen {
+  width: 40px !important;
+  height: 40px !important;
+  color: rgb(250, 248, 248);
 }

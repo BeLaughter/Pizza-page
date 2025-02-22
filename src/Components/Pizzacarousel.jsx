@@ -1,4 +1,5 @@
 import "./Pizzacarousel.css";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 function Pizzacarousel() {
   return (
     <div
@@ -56,8 +57,19 @@ function Pizzacarousel() {
         data-bs-target="#simpleCarousel"
         data-bs-slide="prev"
       >
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="visually-hidden ">Previous</span>
+        <div className="flex">
+          <div className="img-botton hiddenonmobile">
+            <img
+              src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_640.jpg"
+              className="d-block w-100"
+              alt="Image 2"
+            ></img>
+          </div>
+          <div>
+            <FaArrowLeft className="iconsmen" aria-hidden="true" />
+            <span className="visually-hidden ">Previous</span>
+          </div>
+        </div>
       </button>
       <button
         className="carousel-control-next dis"
@@ -65,8 +77,19 @@ function Pizzacarousel() {
         data-bs-target="#simpleCarousel"
         data-bs-slide="next"
       >
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Next</span>
+        <div className="flex">
+          <div>
+            <FaArrowRight className="iconsmen" aria-hidden="true" />
+            <span className="visually-hidden">Next</span>
+          </div>
+          <div className="img-botton hiddenonmobile">
+            <img
+              src="https://cdn.pixabay.com/photo/2021/12/30/11/33/italian-cuisine-6903774_640.jpg"
+              className="d-block w-100"
+              alt="Image 1"
+            ></img>
+          </div>
+        </div>
       </button>
     </div>
   );
