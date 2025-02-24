@@ -13,6 +13,17 @@ import Service from "./Components/Service";
 import Review from "./Components/Review";
 
 function App() {
+  window.addEventListener("scroll", function () {
+    var btntop = document.querySelector(".b2top");
+    var scrollThreshold = btntop.offsetTop + window.innerHeight / 2; // 100vh below  position
+
+    if (window.scrollY > scrollThreshold) {
+      btntop.classList.add("fixed-btn");
+    } else {
+      btntop.classList.remove("fixed-btn");
+    }
+  });
+
   return (
     <div>
       <div className="b2top">

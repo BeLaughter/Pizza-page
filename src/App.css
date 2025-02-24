@@ -61,6 +61,7 @@ ul li {
 }
 
 .b2top {
+  display: none;
   position: fixed;
   bottom: 50px; /* Distance from the bottom of the page */
   right: 20px;
@@ -73,5 +74,9 @@ ul li {
   justify-content: center;
   font-size: 20px;
   cursor: pointer;
+  z-index: 3546474;
   box-shadow: 0 4px 6px rgba(8, 8, 8, 0.5);
+}
+.fixed-btn {
+  display: block;
 }

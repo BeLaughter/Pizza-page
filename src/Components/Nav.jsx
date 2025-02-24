@@ -10,6 +10,17 @@ import {
 } from "react-icons/fa";
 
 function Nav() {
+  //Event listener for addiing and removing fixed class to navbar
+  window.addEventListener("scroll", function () {
+    var navbar = document.querySelector(".nav2");
+    var sticky = navbar.offsetTop;
+
+    if (window.scrollY > sticky) {
+      navbar.classList.add("fixed-nav");
+    } else {
+      navbar.classList.remove("fixed-nav");
+    }
+  });
   return (
     <div className="">
       <div className="flex-container-nav1 hiddenonmobile">

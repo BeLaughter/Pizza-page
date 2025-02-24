@@ -59,3 +59,11 @@
 .nav-img {
   margin-left: 50px;
 }
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white; /* Ensure background remains visible */
+  z-index: 1000; /* Keeps navbar above other content */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+}

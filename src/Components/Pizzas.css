@@ -30,12 +30,12 @@
   .card-inputp {
     width: 70vw;
     height: 8vh;
-    font-size: 35px;
+    font-size: 1.5rem;
     font-weight: bold;
     padding: 10px;
     border-radius: 10px;
     background-color: goldenrod;
-    font-family: "poppings", sans-serif;
+    font-family: sans-serif !important;
   }
   .card-inputp:hover {
     background-color: green;
@@ -72,11 +72,12 @@
   .card-inputp {
     width: 15vw;
     height: 55px;
-    font-size: 25px;
     font-weight: bold;
     margin: 10px;
     background-color: goldenrod;
-    font-family: "poppings", sans-serif;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    font-family: sans-serif !important;
   }
   .card-inputp:hover {
     background-color: green;
