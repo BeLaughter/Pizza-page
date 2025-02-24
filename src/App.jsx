@@ -13,21 +13,30 @@ import Service from "./Components/Service";
 import Review from "./Components/Review";
 
 function App() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   window.addEventListener("scroll", function () {
-    var btntop = document.querySelector(".b2top");
-    var scrollThreshold = btntop.offsetTop + window.innerHeight / 2; // 100vh below  position
+    let btntop = document.querySelector(".b2top");
+    let scrollThreshold = btntop.offsetTop + window.innerHeight / 2; // 100vh below  position
 
     if (window.scrollY > scrollThreshold) {
-      btntop.classList.add("fixed-btn");
+      btntop.classList.add("display-btn");
     } else {
-      btntop.classList.remove("fixed-btn");
+      btntop.classList.remove("display-btn");
     }
   });
 
   return (
     <div>
       <div className="b2top">
-        <a href="#nav">^</a>
+        <a href="#totop" onClick={scrollToTop}>
+          ^
+        </a>
       </div>
       <Nav />
       <Pizzacarousel />

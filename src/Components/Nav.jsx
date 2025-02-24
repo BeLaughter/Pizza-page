@@ -12,8 +12,8 @@ import {
 function Nav() {
   //Event listener for addiing and removing fixed class to navbar
   window.addEventListener("scroll", function () {
-    var navbar = document.querySelector(".nav2");
-    var sticky = navbar.offsetTop;
+    let navbar = document.querySelector(".nav2");
+    let sticky = navbar.offsetTop;
 
     if (window.scrollY > sticky) {
       navbar.classList.add("fixed-nav");
@@ -51,7 +51,6 @@ function Nav() {
           <div className="container-fluid">
             <img
               className="nav-img"
-              id="nav"
               src="https://livedemo00.template-help.com/wt_51689/images/logo-198x66.png"
             ></img>
             <button
