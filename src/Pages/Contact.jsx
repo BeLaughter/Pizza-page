@@ -1,6 +1,4 @@
-import App from "../App";
-
-function Review() {
+function Contact() {
   return (
     <div className="review">
       <div>
@@ -14,4 +12,4 @@ function Review() {
   );
 }
 
-export default Review;
+export default Contact;
