@@ -1,7 +1,7 @@
 import "../App.css";
 function Bodypages(props) {
   return (
-    <div className="bodypages image-text-container">
+    <div className="bodypages image-text-contain">
       <img
         src="https://cdn.pixabay.com/photo/2022/06/04/03/41/pizza-7241179_640.jpg"
         alt="pic"
