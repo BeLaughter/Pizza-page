@@ -1,4 +1,3 @@
-import Footer from "../Components/Footer";
 import Menu from "../Components/Menu";
 import Review from "../Components/Review";
 import Bodypages from "../Components/Bodypages";
@@ -9,7 +8,6 @@ const About = () => {
       <Bodypages h1="About Us" />
       <Menu />
       <Review />
-      <Footer />
     </div>
   );
 };
