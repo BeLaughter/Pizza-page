@@ -1,5 +1,12 @@
 import "../App.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 function Bodypages(props) {
+  // Initialize AOS
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className="bodypages image-text-contain">
       <img
@@ -9,7 +16,9 @@ function Bodypages(props) {
       ></img>
       <div className="boxb"></div>
       <div className="text-overlay">
-        <h1 className="title">{props.h1}</h1>
+        <h1 className="title" data-aos="fade-right" data-aos-duration="2000">
+          {props.h1}
+        </h1>
       </div>
     </div>
   );
