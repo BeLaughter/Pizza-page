@@ -1,17 +1,15 @@
 import Footer from "../Components/Footer";
 import Review from "../Components/Review";
-import Reserve from "../Components/Reserve";
 import Bodypages from "../Components/Bodypages";
 
-function Contact() {
+const Typo = () => {
   return (
     <div>
-      <Bodypages h1="Contact Us" />
-      <Reserve />
+      <Bodypages h1="Typography" />
       <Review />
       <Footer />
     </div>
   );
-}
+};
 
-export default Contact;
+export default Typo;

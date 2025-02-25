@@ -1,5 +1,6 @@
 // import { useState } from "react";
 import "./Nav.css";
+import { Link } from "react-router-dom";
 import {
   FaFacebookSquare,
   FaInstagram,
@@ -66,30 +67,18 @@ function Nav() {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ms-auto">
-                <li className="nav-item">
-                  <a
-                    className="nav-link active"
-                    aria-current="page"
-                    href="#home"
-                  >
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#about">
-                    About Us
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#typography">
-                    Typography
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#contact">
-                    Contact
-                  </a>
-                </li>
+                <Link to="/" className="nav-link active" aria-current="page">
+                  <li className="nav-item">Home</li>
+                </Link>
+                <Link to="/about" className="nav-link">
+                  <li className="nav-item">About Us</li>
+                </Link>
+                <Link to="/typo" className="nav-link">
+                  <li className="nav-item">Typography</li>
+                </Link>
+                <Link to="/contact" className="nav-link">
+                  <li className="nav-item">Contact</li>
+                </Link>
               </ul>
             </div>
           </div>

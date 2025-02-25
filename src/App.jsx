@@ -1,18 +1,12 @@
-// import { useState } from "react";
-import "./App.css";
+import React from "react";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Contact from "./Pages/Contact";
 import Nav from "./Components/Nav";
-import Pizzacarousel from "./Components/Pizzacarousel";
-import Menu from "./Components/Menu";
-import Card from "./Components/Card";
-import Card2 from "./Components/Card2";
-import Reserve from "./Components/Reserve";
-import Footer from "./Components/Footer";
-import Pizzas from "./Components/Pizzas";
-import Testi from "./Components/Testi";
-import Service from "./Components/Service";
-import Review from "./Components/Review";
+import { Routes, Route } from "react-router-dom";
+import Typo from "./Pages/Typo";
 
-function App() {
+const App = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -30,7 +24,6 @@ function App() {
       btntop.classList.remove("display-btn");
     }
   });
-
   return (
     <div>
       <div className="b2top">
@@ -39,17 +32,13 @@ function App() {
         </a>
       </div>
       <Nav />
-      <Pizzacarousel />
-      <Menu />
-      <Card />
-      <Pizzas />
-      <Card2 />
-      <Testi />
-      <Reserve />
-      <Service />
-      <Review />
-      <Footer />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/typo" element={<Typo />} />
+        <Route exact path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
-}
+};
 export default App;

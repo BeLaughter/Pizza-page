@@ -1,15 +1,17 @@
-function About() {
+import Footer from "../Components/Footer";
+import Menu from "../Components/Menu";
+import Review from "../Components/Review";
+import Bodypages from "../Components/Bodypages";
+
+const About = () => {
   return (
-    <div className="review">
-      <div>
-        <img
-          src="https://livedemo00.template-help.com/wt_51689/images/banner/foreground-03-1600x310.png"
-          alt="pic"
-          className=" w-100  review-img"
-        ></img>
-      </div>
+    <div>
+      <Bodypages h1="About Us" />
+      <Menu />
+      <Review />
+      <Footer />
     </div>
   );
-}
+};
 
 export default About;
