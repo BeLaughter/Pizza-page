@@ -16,7 +16,7 @@ function Bodypages(props) {
       ></img>
       <div className="boxb"></div>
       <div className="text-overlay">
-        <h1 className="title" data-aos="fade-right" data-aos-duration="2000">
+        <h1 className="title" data-aos="fade-right" data-aos-duration="2500">
           {props.h1}
         </h1>
       </div>
