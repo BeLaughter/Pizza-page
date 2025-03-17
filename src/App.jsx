@@ -3,11 +3,18 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Nav from "./Components/Nav";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Typo from "./Pages/Typo";
 import Footer from "./Components/Footer";
 
 function App() {
+  // Initialize AOS
+  useEffect(() => {
+    Aos.init();
+  }, []);
   // Function to scroll to top when button is clicked.
   const scrollToTop = () => {
     window.scrollTo({
